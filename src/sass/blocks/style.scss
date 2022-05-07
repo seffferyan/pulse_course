@@ -4,7 +4,11 @@
   font-family: "Museo Sans", sans-serif;
 }
 
-h1 {
-  font-weight: 700;
-  color: #588;
+.container {
+  max-width: 950px;
+  margin: 0 auto;
 }
+
+@import "../blocks/promo";
+@import "../blocks/header";
+@import "../blocks/buttons";
