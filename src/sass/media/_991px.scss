@@ -1,0 +1,47 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header {
+        &__logo {
+            width: 30%;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+        &__icons {
+            margin-top: 50px;
+        }
+    }
+
+    .button {
+        &_main {
+            margin-top: 50px;
+        }
+    }
+
+    .advantages {
+        padding: 60px 0;
+        &__subtitle {
+           font-size: 16px; 
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+
+    .title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+}

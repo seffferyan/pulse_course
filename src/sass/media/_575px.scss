@@ -1,0 +1,46 @@
+@media (max-width: 575px) {
+    .container {
+        max-width: none;
+    }
+
+    .header {
+        padding: 0 15px;
+        &__logo {
+            width: 50%;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+    }
+    .button_header {
+        font-size: 10px;
+    }
+
+    .promo {
+        &__wrapper {
+            margin-top: 65px;
+        }
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+            margin-top: 14px;
+        }
+        &__icons {
+            display: none;
+        }
+    }
+    .title {
+        font-size: 22px;
+    }
+    .advantages {
+        padding: 45px 0 60px 0;
+        &__wrapper {
+            margin-top: 15px;
+        }
+        &__item {
+            max-width: 65%;
+        }
+    }
+}
