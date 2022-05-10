@@ -9,14 +9,15 @@
             width: 50%;
         }
         &__phone {
-            font-size: 12px;
+            font-size: 15px;
         }
     }
     .button_header {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .promo {
+        padding: 0 10px;
         &__wrapper {
             margin-top: 65px;
         }
@@ -33,6 +34,10 @@
     }
     .title {
         font-size: 22px;
+        &_left {
+            text-align: center;
+            font-size: 22px;
+        }
     }
     .advantages {
         padding: 45px 0 60px 0;
@@ -42,5 +47,15 @@
         &__item {
             max-width: 65%;
         }
+    }
+    .consultation {
+        padding: 45px 10px 60px 10px;
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    .feed-form {
+        margin: 36px auto 0 auto;
     }
 }
