@@ -1,0 +1,64 @@
+.carousel {
+  padding: 80px 0;
+  &__inner {
+    position: relative;
+    .slick-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 50px;
+      border: none;
+      z-index: 10;
+    }
+    .slick-arrow.slick-prev{
+      left: 0;
+      font-size: 0;
+      background: url(../../icons/left.png) center (center/cover) no-repeat;
+    }
+    .slick-arrow.slick-next{
+      right: 0;
+      font-size: 0;
+      background: url(../../icons/right.png) center (center/cover) no-repeat;
+    }
+    .slick-slide{
+      img {
+        width: 80%;
+      }
+    }
+
+    .slick-dots {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li {
+        list-style: none;
+        &:nth-child(even){
+          margin: 15px;
+        }
+        button {
+          font-size: 0;
+          padding: 0;
+          width: 10px;
+          height: 10px;
+          border: 1px solid $main-color;
+          border-radius: 100%;
+          background-color: #fff;
+        }
+      }
+      li.slick-active {
+        button {
+          background-color: $main-color;
+          border: $main-color;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+    
+  }
+}  
+
